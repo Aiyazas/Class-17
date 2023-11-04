@@ -1,0 +1,514 @@
+/* common code start*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    }
+    h1,h4{
+        font-family: 'Abril Fatface', cursive;
+    }
+    h2,h3,h5,h6,button,a{
+        font-family: 'Ubuntu', sans-serif; 
+    }
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* common code end */
+#top_bar{
+    background-color:#0f2f44 ;
+    color: #ffff;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+
+#primary_nav{
+    padding: 30px 0;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #222222;
+    transition: .7s;
+    font-weight: bold;
+    
+}
+.navbar-nav li a:hover{
+    color: #ffcb31;
+   
+
+}
+.navbar-nav li button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffff;
+    margin: 10px;
+    color: #c3c3c3;
+    border:1px solid #e0e0e0;
+  
+
+}
+.navbar-nav li button:hover{
+    color: #ffcb31;
+    }
+
+/* Hero Session srart*/
+#hero{
+    background-color: #e0eeff;
+     }
+     #hero .hero_img img{
+        margin-top: 63px;
+     }
+    
+     #hero .hero_content h2{
+        font-size: 50px;
+        line-height: 70px;
+        font-weight:300 ;
+    }
+    #hero .hero_content h1{
+        font-size: 80px;
+        line-height: 70px;
+       
+    }
+    
+    #hero .hero_content h3{
+        font-size: 32px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #8484bf;
+        letter-spacing: 15px;
+        padding-top: 10px;
+      
+    }
+    #hero .hero_content p{
+        font-size: 14px;
+        line-height: 24px;
+        padding-right:120px;
+        margin: 30px 0;
+        margin-bottom: 45px;
+        color: #6c7882;
+    }
+    #hero .hero_content a{
+        text-decoration: none;
+        border-radius:5px;
+        background-color: #fff;
+        padding: 15px 25px;
+        color: #8484bf;
+        font-size: 20px;
+        font-weight: 700;
+        box-shadow: 1px  2px  5px 1px rgba(100, 59, 118, 0.6);
+        transition: 0.7s;
+    }
+    #hero .hero_content a:hover{
+        background-color: #8484bf;
+        color: #fff;
+    
+    }
+    #hero .hero_content button{ 
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 10px;
+        border: none;
+        background-color: #fff;
+        color: #8484bf;
+        font-size: 22px;
+        box-shadow:2px  2px  7px 1px rgba(26, 25, 25, 0.6);
+        transition: 0.7s;
+    }
+    #hero .hero_content button:hover{
+        background-color: #8484bf;
+        color: #fff;
+    
+    }
+/* Hero Session end*/
+/* About Session start*/
+#about .about_img{
+    margin-top: 100px;
+}
+#about .about_content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c7882;
+    padding-right: 120px;
+
+
+}
+#about .about_content h4 {
+    font-size: 32px;
+    margin-bottom:15px;
+}
+#about .about_content ul li{
+    margin-top: 15px;
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #6c7882;
+    
+
+}
+#about .about_content ul a{
+    margin: 90px 10px;
+    border-radius:5px;
+    background-color: #fff;
+    padding: 12px 25px;
+    color: #0f2f44;
+    font-size: 16px;
+    border: none;
+    font-weight: 800;
+    text-decoration: none;
+    box-shadow: 1px  2px  7px 1px rgba(241, 228, 187, 0.696);
+    transition: 0.7s;
+}
+#about .about_content ul a:last-child{
+    background-color: #fff;
+    
+}
+#about .about_content ul a:hover{
+    background-color: #ffc712;
+}
+/* About Session end*/
+/* Skills Session start*/
+#skills{
+    padding-top: 100px;
+}
+#skills .skills_img{
+    margin-top: 100px;
+    transform: translateX(-100px);
+}
+#skills .skills_content{
+    text-align: right;
+    font-size: 14px;
+    padding-right: 10px;
+}
+#skills .skills_content h4{
+    text-align: right;
+    font-size: 32px;
+   
+    margin-bottom:15px;
+    padding-right: 10px;
+
+}
+#skills .skills_content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c7882;
+}
+#skills .skills_content .skills_box_img img{
+    border: 15px solid #ffff;
+    border-radius: 50%;
+    box-shadow: 0 25px 60px 10px rgba(0, 0,  0, .15);
+
+}
+#skills .skills_content .skills_box_theme .progress-bar span{
+    transform:translateY(-25px);
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#skills .skills_content .skills_box_theme h5{
+    margin-bottom: 10px;
+}
+#skills .skills_box {
+    margin-bottom: 20px;
+}
+/* Skills Session end*/
+
+/* Servicess Session start*/
+#Servies{
+    background-color: #f5f5f5;
+    padding: 60px 0px;
+    text-align: center;
+}
+#Servies p{
+    font-weight: 300px;
+    font-size: 14px;
+    color: #8b949b;
+}
+#Servies h4{
+    
+    font-size:32px ;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 45px;
+}
+#Servies .all_vlog {
+    text-align: start;
+    padding: 0;
+}
+#Servies .all_vlog  .main_box{
+    padding: 0px 15px;
+}
+#Servies .all_vlog .Servies_box{
+    border-radius: 4px;
+    background-color: #e9e9e9;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+#Servies .all_vlog .Servies_box .box_img{
+ display: flex;
+ justify-content:center ;
+ align-items: center;
+}
+#Servies .all_vlog .Servies_box .box_inpu{
+    padding: 33px 20px;
+    background-color: #eeeeee;
+}
+#Servies .all_vlog .Servies_box .box_inpu h3{
+    font-size:20px;
+    font-weight: 500;
+}
+#Servies .all_vlog  .Servies_box .box_inpu p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 9px;
+}
+#Servies .all_vlog .main_box .overly{
+    background-color: #0f2f44;
+    color: #ffff;
+    position: absolute;
+    inset: 0px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.8s;
+    text-align: center;
+}
+#Servies .all_vlog .main_box:hover .overly{
+   opacity: 1;
+   visibility: visible;
+}
+#Servies .all_vlog  .main_box .overly img{
+    margin: 30px 0px 15px;
+    border: 2px outset black;
+    border-radius: 1px;
+}
+#Servies .all_vlog  .main_box .overly  h3{
+    line-height: 18px;
+    font-size: 20px;
+}
+#Servies .all_vlog  .main_box .overly a{
+    background-color: #ffc712;
+    color: #222222;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    position: absolute;
+    right: 44.5%;
+    bottom: -20px;
+}
+/* Servicess Session end*/
+
+/* Our Portfolio start*/
+.portfolio_info{
+    text-align: center;
+    margin-top: 100px;
+  
+}
+.portfolio_info h5{
+    font-size: 30px;
+}
+.portfolio_info p{
+    font-size: 14px;
+    color:#545454;
+}
+#Portfolio .profile-one{
+    margin: 60px 0px;
+}
+#Portfolio .one{
+   position: relative;
+  
+}
+#Portfolio .one img{
+    width: 100%;
+}
+.one .por-h6{
+    position: absolute;
+    right:0;
+    bottom: 0px;
+    font-size: larger;
+    width: 100%;
+    background-color: #ffff;
+    text-align: center;
+   margin: 0 auto;
+   line-height: 80px;
+   opacity: 0;
+   visibility: hidden;
+   transition: 0.8s;
+   transform: scaleY(0);
+   transform-origin: bottom;
+   padding: 20px;
+}
+.one:hover .por-h6{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.but{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.but button{
+    text-align: center;
+background-color: #f9f9f9;
+font-size:20px;
+font-weight: 600;
+padding: 15px 20px;
+border: 2px solid slategray;
+border-radius: 7px;
+transition: 0.7s;
+
+
+
+}
+.but:hover button{
+background-color: #ffc712;
+border: none;
+
+ 
+}
+/* Our Portfolio end*/
+/* testimonial start */
+#testimonial{
+    background-color:#f5f5f5 ;
+}
+.testimonial_info{
+    text-align: center;
+    margin-top: 60px;
+}
+.testimonial_info h5{
+    font-size: 30px;
+}
+.testimonial_info p{
+    font-size: 14px;
+    color:#545454;
+}
+.all_test_vlog .test_vlog{
+    margin: 60px 0;
+   
+}
+.all_test_vlog .test_vlog .info_v{
+    background-color: #e9e9e9;
+    padding: 20px;
+    
+  
+}
+.all_test_vlog .test_vlog .info_v p{
+    font-size: 14px;
+}
+.all_test_vlog .test_vlog .info_v h6{
+    font-size: 20px;
+    margin-top: 5px;
+}
+/* testimonial end */
+
+
+/*Our_latest_blog start*/
+#our_latest_blogs {
+
+}
+.latest_info{
+    text-align: center;
+    margin-top: 100px;
+}
+#our_latest_blogs .latest_info h5{
+    font-size: 30px;
+}
+#our_latest_blogs .latest_info p{
+    font-size: 14px;
+    color:#545454;
+}
+#our_latest_blogs .all_latest_vlog{
+    
+    justify-content: center;
+}
+#our_latest_blogs .all_latest_vlog .latest_vlog{
+    text-align: center;
+    margin: 60px 39px;
+    background-color: #f5f5f5;
+    padding:20px;
+    border-radius: 5px;
+    transition: 0.8s;
+   
+}
+
+#our_latest_blogs .all_latest_vlog .latest_vlog:hover{
+    background-color: #0f2f44;
+    color:#fff;
+}
+#our_latest_blogs .all_latest_vlog .latest_vlog p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#our_latest_blogs .all_latest_vlog .latest_vlog h6{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#our_latest_blogs .all_latest_vlog .latest_vlog img{
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+/*Our_latest_blogs end*/
+/*footer start*/
+#last{
+    background-color:#f5f5f5;
+    padding: 100px 0;
+   }
+    #last .footer_box_1 p{
+        margin: 30px 0;
+       
+    }
+    #last .footer_box_1 ul {
+        justify-content: right;
+
+    }
+    #last .footer_box_1 ul li a i{
+        border: 1px solid black;
+        border-radius: 50%;
+       width: 40px;
+       height: 40px;
+       padding: 10px;
+       margin: 0 5px;
+       color: #0f2f44;
+       font-size: 20px;
+    }
+    #last .footer_box_1 ul li a i:hover{
+        background-color: #0f2f44;
+        color: #fff;
+
+    } 
+    #last .footer_box_2 ul li{
+        margin-top: 30px;
+    }
+    #last .footer_box_2 ul li i{
+        margin:0 15px;
+    }
+    #last .footer_box_2 ul li a{
+        color: #000;
+    }
+    #last .footer_box_4 h4{
+        margin-bottom: 30px;
+        
+    }
+    #last .footer_box_3 h4{
+        margin-bottom: 30px;
+        
+    }
+
+
+/*footer end*/
+
+
